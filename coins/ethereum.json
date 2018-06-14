@@ -2,13 +2,13 @@
   "symbol": "ETH",
   "address": "ethereum",
   "overview": "The crypto-fuel for the Ethereum network",
-  "website": "https://www.ethereum.org",
-  "whitepaper": "https://github.com/ethereum/wiki/wiki/White-Paper",
+  "website": "http://moac.io/",
+  "whitepaper": "https://github.com/MOACChain/moac-core/wiki/%E6%96%B9%E6%A1%88",
   "state": "FLOAT",
-  "published_on": "2015-07-30",
-  "initial_price": "1 BTC = 2000 ETH",
+  "published_on": "2017-07-30",
+  "initial_price": "1 BTC = 10000 MOAC",
   "links": {
-    "github": "https://github.com/ethereum",
+    "github": "https://github.com/MOACChain/moac-core",
     "twitter": "https://twitter.com/ethereum",
     "facebook": "https://www.facebook.com/ethereumproject",
     "blog": "https://blog.ethereum.org/"
