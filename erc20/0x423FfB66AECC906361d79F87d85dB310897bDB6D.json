@@ -1,21 +1,21 @@
 {
-    "website": "https://www.fifachain.io/",
-    "published_on": "2018-02-10",
-    "links": {
-        "telegram": "https://t.me/fifachain",
-        "twitter": "https://twitter.com/FIFA_ICO",
-        "facebook": "https://fb.me/fifaico"
-    },
-    "overview": {
-        "en": "FIFA (First Internet Football Association) is a Supranational Organization focus on football and blockchain technology. It is formed by football fans around the world. It is based on the passion of football and the recognition of blockchain. FIFA aims to create a new football ecosystem, allows millions of people to participate in blockchain network, with the ultimate goal of building a decentralized self-made organization centered on football fans and also penetrate into various application fields such as commerce, finance, gambling, lottery and gaming. Ultimately, FIFA will establish a commonly acknowledged, fair, open, democratic and eternal new FIFA football world.",
-        "zh": "FIFAÊÇÒ»¸ö×¨×¢×ãÇòºÍÇø¿éÁ´¼¼ÊõµÄ³¬¹ú¼Ò×éÖ¯£¨Supranational Union£©£¬³ÉÔ±À´×Ô²»Í¬¹ú¼ÒºÍµØÇø£¬»ùÓÚ¶Ô×ãÇòµÄÈÈ°®ºÍÇø¿éÁ´µÄÈÏ¿ÉÄý¾Ûµ½Ò»Æð¡£FIFAÀûÓÃÇø¿éÁ´¼¼ÊõÖØ¹¹×ãÇòÉúÌ¬£¬ÈÃÊýÇ§ÍòÁ¿¼¶µÄÓÃ»§Ê¹ÓÃÇø¿éÁ´ÍøÂç£¬¹¹½¨ÒÔÇòÃÔÎªºËÐÄµÄ·Ö²¼Ê½×ÔÖÎÉçÇø£¬Ó¦ÓÃÉøÍ¸µ½ÉÌÒµ¡¢½ðÈÚ¡¢²©²Ê¡¢ÓÎÏ·µÈ¶à¸öÏÖÊµÁìÓò¡£FIFA½«ÎªËùÓÐÈÈ°®×ãÇòµÄÈËÃÇÔÚÇø¿éÁ´µÄÊÀ½çÀï½¨Á¢Ò»¸ö¹²Ê¶µÄ¡¢¹«Æ½µÄ¡¢¿ª·ÅµÄ¡¢ÐÂµÄ×ãÇòÊÀ½ç£¡"
-    },
-    "symbol": "FIFA",
-    "initial_price": {
-        "ETH": "0.001 ETH",
-        "USD": "0.61 USD"
-    },
-    "whitepaper": "https://www.fifachain.io/assets/fifa_whitepaper_en.pdf",
-    "address": "0x423FfB66AECC906361d79F87d85dB310897bDB6D",
-    "email": "info@fifachain.io"
+  "website": "https://www.fifachain.io/",
+  "published_on": "2018-02-10",
+  "links": {
+    "telegram": "https://t.me/fifachain",
+    "twitter": "https://twitter.com/FIFA_ICO",
+    "facebook": "https://fb.me/fifaico"
+  },
+  "overview": {
+    "en": "FIFA (First Internet Football Association) is a Supranational Organization focus on football and blockchain technology. It is formed by football fans around the world. It is based on the passion of football and the recognition of blockchain. FIFA aims to create a new football ecosystem, allows millions of people to participate in blockchain network, with the ultimate goal of building a decentralized self-made organization centered on football fans and also penetrate into various application fields such as commerce, finance, gambling, lottery and gaming. Ultimately, FIFA will establish a commonly acknowledged, fair, open, democratic and eternal new FIFA football world.",
+    "zh": "FIFAï¿½ï¿½Ò»ï¿½ï¿½×¨×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¯ï¿½ï¿½Supranational Unionï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±ï¿½ï¿½ï¿½Ô²ï¿½Í¬ï¿½ï¿½ï¿½ÒºÍµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½Ûµï¿½Ò»ï¿½ï¿½FIFAï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ø¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ÄµÄ·Ö²ï¿½Ê½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½Í¸ï¿½ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½Ú¡ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½ï¿½Ï·ï¿½È¶ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½FIFAï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½È°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï½¨ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ê¶ï¿½Ä¡ï¿½ï¿½ï¿½Æ½ï¿½Ä¡ï¿½ï¿½ï¿½ï¿½ÅµÄ¡ï¿½ï¿½Âµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç£¡"
+  },
+  "symbol": "FIFA",
+  "initial_price": {
+    "ETH": "0.001 ETH",
+    "USD": "0.61 USD"
+  },
+  "whitepaper": "https://www.fifachain.io/assets/fifa_whitepaper_en.pdf",
+  "address": "0x423FfB66AECC906361d79F87d85dB310897bDB6D",
+  "email": "info@fifachain.io"
 }

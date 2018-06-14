@@ -1,6 +1,6 @@
 {
   "symbol": "Token symbol",
-  "address": "Contract Address",
+  "issuer": "Issuer Address",
   "overview": {
     "en": "Token Description.",
     "zh": ""

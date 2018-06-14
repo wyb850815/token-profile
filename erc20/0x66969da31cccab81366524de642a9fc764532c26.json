@@ -1,16 +1,18 @@
 {
   "symbol": "CTC",
   "address": "0x66969da31cccab81366524de642a9fc764532c26",
-  "overview":{
-        "en":"LEOOY Online travel platform is a one-stop travel service cultural platform of brand-new concept created by the Singapore Cultural Tourism Foundation to subvert the traditional tourism consumption ideas, and simply referred to as LEOOY.",
-        "zh":"乐鸥在线文旅平台是新加坡文化旅游基金会全力打造的一个颠覆传统旅游消费观念的全新概念一站式的旅游服务文化交流平台，简称为乐鸥文旅平台。"
+  "overview": {
+    "en": "LEOOY Online travel platform is a one-stop travel service cultural platform of brand-new concept created by the Singapore Cultural Tourism Foundation to subvert the traditional tourism consumption ideas, and simply referred to as LEOOY.",
+    "zh": "锟斤拷鸥锟斤拷锟斤拷锟斤拷锟斤拷平台锟斤拷锟铰硷拷锟斤拷锟侥伙拷锟斤拷锟轿伙拷锟斤拷锟饺拷锟斤拷锟斤拷锟斤拷一锟斤拷锟竭革拷锟斤拷统锟斤拷锟斤拷锟斤拷锟窖癸拷锟斤拷锟饺拷赂锟斤拷锟揭徽臼斤拷锟斤拷锟斤拷畏锟斤拷锟斤拷幕锟斤拷锟斤拷锟狡教拷锟斤拷锟斤拷为锟斤拷鸥锟斤拷锟斤拷平台锟斤拷"
   },
   "email": "goomtusupport@foxmail.com",
   "website": "http://www.culturetravel.io/",
   "whitepaper": "http://www.culturetravel.io/static/pdf/LeooyWhitepaperEn-draft.pdf",
   "state": "LOCKED",
   "published_on": "2018-05-01",
-  "initial_price":{"ETH":"0.0001 ETH"},
+  "initial_price": {
+    "ETH": "0.0001 ETH"
+  },
   "links": {
     "twitter": "https://twitter.com/CTCleou?s=0",
     "telegram": "https://m.facebook.com/groups/642365836107284",
