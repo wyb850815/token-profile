@@ -1,1 +1,16 @@
-{}
+{
+  "symbol": "EOS",
+  "address": "eos",
+  "overview": "The most powerful infrastructure for decentralized applications",
+  "website": "https://eos.io/",
+  "whitepaper": "https://github.com/EOSIO/Documentation/blob/master/TechnicalWhitePaper.md",
+  "state": "FLOAT",
+  "published_on": "2017-06-22",
+  "initial_price": "",
+  "links": {
+    "github": "https://github.com/EOSIO/eos",
+    "twitter": "https://twitter.com/eos_io",
+    "facebook": "https://www.facebook.com/eosblockchain",
+    "blog": "http://www.block.one/"
+  }
+}
