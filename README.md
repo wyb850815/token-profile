@@ -46,4 +46,4 @@ You're totally responsible for your commit, so please make sure that the informa
 
 ## Copyright
 
-2018&copy;imToken PTE. LTD.
+2018&copy;TokenPocket PTE. LTD.
