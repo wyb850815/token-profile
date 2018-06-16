@@ -19,7 +19,7 @@ imToken runs a project named **token-profile-node** which is able to deliver the
 git clone git@github.com:xxxxxxxx/token-profile.git
 ```
 3. Create and switch to a new branch named by your token symbol
-4. Add a new json file to the `erc20` directory, which named by the token contract address with **checksum**, for example:
+4. Add a new json file to the `erc20`, `erc20_eos`, `erc20_moac`, `tong` directory, which named by the token contract address with **checksum**, for example:
 ```
 0xf90f1648926005A8bb3ed8ec883164De7F768743.json
 ```
