@@ -14,7 +14,8 @@
   "initial_price": {
     "ETH": "0.00166666 ETH",
     "USD": "0.7 USD",
-    "BTC": "0.00004137 BTC"
+    "BTC": "0.00004137 BTC",
+    "MOAC": "0.003 MOAC"
   },
   "links": {
     "blog": "https://your-awesome-project.com/blog",
