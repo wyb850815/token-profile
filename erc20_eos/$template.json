@@ -1,6 +1,7 @@
 {
   "symbol": "Token symbol",
   "account": "Contract Account",
+  "precision": 4,
   "overview": {
     "en": "Token Description.",
     "zh": ""
