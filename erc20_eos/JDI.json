@@ -1,0 +1,30 @@
+{
+  "symbol": "JDI",
+  "account": "jediiiiiiiii",
+  "precision": 4,
+  "overview": {
+    "en": "EOSStar Jedi token.",
+    "zh": "EOS绝地纪念勋章，用于奖励维护EOS系统的绝地武士团"
+  },
+  "logo": "jediiiiiiiii_JDI.png",
+  "email": "service@eosjedi.io",
+  "website": "https://eosjedi.io",
+  "whitepaper": "",
+  "state": "NORMAL",
+  "published_on": "2018-06-17",
+  "initial_price": {
+    "ETH": "0.00030856 ETH",
+    "USD": "0.156 USD",
+    "BTC": "0.00002385"
+  },
+  "links": {
+    "blog": "",
+    "twitter": "https://twitter.com/@eosjedi",
+    "telegram": "https://t.me/eosjedi",
+    "github": "",
+    "facebook": "",
+    "reddit": "",
+    "slack": "",
+    "medium": ""
+  }
+}
