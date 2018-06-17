@@ -4,6 +4,8 @@ The purpose of the repo is to make users know more about tokens details.
 
 It will be revealed in TokenPocket by going through **Wallet(tab)** -> **Token(for example, ETH)** -> **Token Profile Button(right-top corner)**.
 
+![Wallet Tab](tutorial/sample.png)
+
 ## How it works
 1. People make PR to the repo, so that we review and give feedback.
 2. When PR is merged, The Token Profile web pages will be built and published.
