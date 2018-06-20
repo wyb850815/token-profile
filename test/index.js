@@ -1,53 +1,50 @@
-const fs = require('fs')
-const PNG = require('pngjs').PNG
-const chalk = require('chalk')
+const fs = require('fs');
+const PNG = require('pngjs').PNG;
+const chalk = require('chalk');
 
 
-const dateExp = /^\d{4}-\d{2}(-\d{2})?$/
+const dateExp = /^\d{4}-\d{2}(-\d{2})?$/;
 
-const urlExp = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/
+const urlExp = /^(?:([A-Za-z]+):)?(\/{0,3})([0-9.\-A-Za-z]+)(?::(\d+))?(?:\/([^?#]*))?(?:\?([^#]*))?(?:#(.*))?$/;
 
-const emailExp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+const emailExp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 const isAddress = (address) => {
-    if (!/^(0x)?[0-9a-f]{40}$/i.test(address)) {
-        return false
-    }
-    return true
-}
+    return /^(0x)?[0-9a-f]{40}$/i.test(address);
+};
 
 const isStringWithCharacter = (str) => {
     return str && typeof str === 'string' && str.trim()
-}
+};
 
-const isUrl = (url) => isStringWithCharacter(url) && url.match(urlExp)
+const isUrl = (url) => isStringWithCharacter(url) && url.match(urlExp);
 
 const exitWithMsg = (msg) => {
-    console.log(chalk.red(msg))
+    console.log(chalk.red(msg));
     process.exit(1)
-}
+};
 
 const notice = (msg) => {
     console.log(chalk.yellow(msg))
-}
+};
 
-const jsonFileNames = fs.readdirSync('./erc20')
-const imageFileNames = fs.readdirSync('./images')
-const imageAddrs = imageFileNames.map(n => n.toLowerCase().slice(0, 42)).filter(n => n.startsWith('0x'))
+const jsonFileNames = fs.readdirSync('../erc20');
+const imageFileNames = fs.readdirSync('../images');
+const imageAddrs = imageFileNames.map(n => n.toLowerCase().slice(0, 42)).filter(n => n.startsWith('0x'));
 
 jsonFileNames
     .filter(jsonFileName => {
         return jsonFileName !== '$template.json' && jsonFileName.endsWith('.json')
     })
     .forEach(jsonFileName => {
-        const addr = jsonFileName.replace('.json', '')
+        const addr = jsonFileName.replace('.json', '');
         if (!isAddress(addr)) {
             exitWithMsg(`ERROR! json file name ${jsonFileName} is not like a address.json`)
         }
 
-        const content = fs.readFileSync(`./erc20/${addr}.json`).toString()
-        let obj = null
-        let parseErr = null
+        const content = fs.readFileSync(`../erc20/${addr}.json`).toString();
+        let obj = null;
+        let parseErr = null;
 
         try {
             obj = JSON.parse(content)
@@ -110,7 +107,7 @@ jsonFileNames
         }
 
         if (obj.initial_price !== undefined) {
-            const keys = Object.keys(obj.initial_price)
+            const keys = Object.keys(obj.initial_price);
             if (keys.some(k => !['BTC', 'ETH', 'USD'].includes(k))) {
                 exitWithMsg(`ERROR! json file ${jsonFileName}'s initial_price field ${JSON.stringify(obj.initial_price)} only support BTC ETH USD`)
             }
@@ -129,10 +126,10 @@ jsonFileNames
                 }
             }
         })
-    })
+    });
 
 imageFileNames.forEach(n => {
-    const path = `./images/${n}`
+    const path = `../images/${n}`;
 
     if (n.endsWith('.png')) {
         fs.createReadStream(path)
@@ -152,6 +149,6 @@ imageFileNames.forEach(n => {
     } else {
         notice(`${n} image must be png`)
     }
-})
+});
 
 // process.exit(0)

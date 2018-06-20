@@ -10,7 +10,7 @@
 	"email": "Email",
 	"website": "https://your-awesome-project.com/",
 	"whitepaper": "https://your-awesome-project.com/file.pdf",
-	"state": "LOCKED | NORMAL",
+	"state": "NORMAL",
 	"published_on": "2018-01-01",
 	"links": {
 		"blog": "https://your-awesome-project.com/blog",
