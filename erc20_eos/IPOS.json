@@ -1,0 +1,21 @@
+{
+"symbol": "IPOS",
+"account": "oo1122334455",
+"precision": 4,
+"overview": {
+"en": "A distributed operating system with blockchain.",
+"zh": "使用区块链结算的去中心化操作系统"
+},
+"logo": "oo1122334455_IPOS.png",
+"email": "",
+"website": "https://iposio.github.io/",
+"whitepaper": "https://github.com/IPOSIO/ipos/blob/master/README.md",
+"state": "NORMAL",
+"published_on": "2018-07-13",
+"initial_price": {
+},
+"links": {
+"telegram": "https://t.me/iposio",
+"github": "https://github.com/IPOSIO"
+}
+}
